@@ -1,5 +1,5 @@
 let express = require('express')
-let routes = require('./routes/routes')
+let routes = require('./routes/routes.js')
 
 let app = express()
 

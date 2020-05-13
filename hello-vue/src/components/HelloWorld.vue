@@ -18,10 +18,10 @@ export default {
     msg: String
   },
   mounted() {
-    this.$hello_api.getHelloMessage().then( resp => {
+    this.$hello_api.getHelloMessage().then(resp => {
       this.helloMessage = resp.message
-    } )
-  },
+    })
+  }
 }
 </script>
 

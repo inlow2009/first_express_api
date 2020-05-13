@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import HelloAPI from '@/services/HelloAPI.js'
+import HelloAPI from '@/services/HelloAPI'
 
 Vue.config.productionTip = false
 
